@@ -17,6 +17,11 @@
             border-radius: 10px;
             position: relative;
             margin: 16px;
+            overflow: hidden;
+        }
+        .photo-frame:hover .photo{
+            transform: scale(1.5);
+            transition: transform 2s ease-in-out;
         }
         .photo img{
             width: 100%;
@@ -34,7 +39,7 @@
             color: whitesmoke;
         }
         .photo-frame:hover .photo-detail{
-            display: block;
+            /* display: block; */
             background-color: rgba(210, 223, 216, 0.486);
 
         }
